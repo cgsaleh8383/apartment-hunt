@@ -17,7 +17,7 @@ const ApartmentBoxDetail = ({ apartment }) => {
                     </div>
                     <div className='price d-flex justify-content-between'>
                         <span>${apartment.price}</span>
-                        <Link to={`/room/${apartment.id}`}><button>View Details</button></Link>
+                        <Link to={`/sidebar`}><button>Book Now</button></Link>
                     </div>
                 </div>
             </div>
